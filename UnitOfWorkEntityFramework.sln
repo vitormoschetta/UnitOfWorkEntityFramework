@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.6.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F0E65688-DF3F-4719-9474-91EB766B79C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infra", "src\Infra\Infra.csproj", "{25BCCA68-AAA9-4DA7-AAE5-8E2485B594FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "domain", "src\Domain\domain.csproj", "{022099C6-8872-4EE8-86BF-C757A22DE942}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api", "src\Api\api.csproj", "{91DC95EA-D11C-4DC8-B81B-AE646CF05E72}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25BCCA68-AAA9-4DA7-AAE5-8E2485B594FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25BCCA68-AAA9-4DA7-AAE5-8E2485B594FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25BCCA68-AAA9-4DA7-AAE5-8E2485B594FA}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{25BCCA68-AAA9-4DA7-AAE5-8E2485B594FA}.Debug|x64.Build.0 = Debug|Any CPU
+		{25BCCA68-AAA9-4DA7-AAE5-8E2485B594FA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{25BCCA68-AAA9-4DA7-AAE5-8E2485B594FA}.Debug|x86.Build.0 = Debug|Any CPU
+		{25BCCA68-AAA9-4DA7-AAE5-8E2485B594FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25BCCA68-AAA9-4DA7-AAE5-8E2485B594FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25BCCA68-AAA9-4DA7-AAE5-8E2485B594FA}.Release|x64.ActiveCfg = Release|Any CPU
+		{25BCCA68-AAA9-4DA7-AAE5-8E2485B594FA}.Release|x64.Build.0 = Release|Any CPU
+		{25BCCA68-AAA9-4DA7-AAE5-8E2485B594FA}.Release|x86.ActiveCfg = Release|Any CPU
+		{25BCCA68-AAA9-4DA7-AAE5-8E2485B594FA}.Release|x86.Build.0 = Release|Any CPU
+		{022099C6-8872-4EE8-86BF-C757A22DE942}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{022099C6-8872-4EE8-86BF-C757A22DE942}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{022099C6-8872-4EE8-86BF-C757A22DE942}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{022099C6-8872-4EE8-86BF-C757A22DE942}.Debug|x64.Build.0 = Debug|Any CPU
+		{022099C6-8872-4EE8-86BF-C757A22DE942}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{022099C6-8872-4EE8-86BF-C757A22DE942}.Debug|x86.Build.0 = Debug|Any CPU
+		{022099C6-8872-4EE8-86BF-C757A22DE942}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{022099C6-8872-4EE8-86BF-C757A22DE942}.Release|Any CPU.Build.0 = Release|Any CPU
+		{022099C6-8872-4EE8-86BF-C757A22DE942}.Release|x64.ActiveCfg = Release|Any CPU
+		{022099C6-8872-4EE8-86BF-C757A22DE942}.Release|x64.Build.0 = Release|Any CPU
+		{022099C6-8872-4EE8-86BF-C757A22DE942}.Release|x86.ActiveCfg = Release|Any CPU
+		{022099C6-8872-4EE8-86BF-C757A22DE942}.Release|x86.Build.0 = Release|Any CPU
+		{91DC95EA-D11C-4DC8-B81B-AE646CF05E72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91DC95EA-D11C-4DC8-B81B-AE646CF05E72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91DC95EA-D11C-4DC8-B81B-AE646CF05E72}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{91DC95EA-D11C-4DC8-B81B-AE646CF05E72}.Debug|x64.Build.0 = Debug|Any CPU
+		{91DC95EA-D11C-4DC8-B81B-AE646CF05E72}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{91DC95EA-D11C-4DC8-B81B-AE646CF05E72}.Debug|x86.Build.0 = Debug|Any CPU
+		{91DC95EA-D11C-4DC8-B81B-AE646CF05E72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91DC95EA-D11C-4DC8-B81B-AE646CF05E72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91DC95EA-D11C-4DC8-B81B-AE646CF05E72}.Release|x64.ActiveCfg = Release|Any CPU
+		{91DC95EA-D11C-4DC8-B81B-AE646CF05E72}.Release|x64.Build.0 = Release|Any CPU
+		{91DC95EA-D11C-4DC8-B81B-AE646CF05E72}.Release|x86.ActiveCfg = Release|Any CPU
+		{91DC95EA-D11C-4DC8-B81B-AE646CF05E72}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{25BCCA68-AAA9-4DA7-AAE5-8E2485B594FA} = {F0E65688-DF3F-4719-9474-91EB766B79C0}
+		{022099C6-8872-4EE8-86BF-C757A22DE942} = {F0E65688-DF3F-4719-9474-91EB766B79C0}
+		{91DC95EA-D11C-4DC8-B81B-AE646CF05E72} = {F0E65688-DF3F-4719-9474-91EB766B79C0}
+	EndGlobalSection
+EndGlobal
